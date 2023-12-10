@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+html{
+    scroll-padding: 5rem;
+}
+
+*{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+
+}
+
+
+header{
+    background-color:rgb(255, 1, 1);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 100px;    
+}
+
+
+.logo{
+    text-decoration:none;
+    color:black; 
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.7em;
+}
+
+.navigation a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding-left: 30px;
+    white-space: nowrap;
+}
+
+.navigation a:hover{
+    color:rgb(0, 0, 0);
+}
+
+section{
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.main h2{
+    color: #666;
+    font-size: 1.4em;
+    font-weight: 500;
+    white-space: nowrap;
+
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: -10px;
+    color: black;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.main h3{
+    color:#666;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.main-btn{
+    color: #ffffff;
+    background-color: #666;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    transition: 0.7s ease;
+    margin-bottom: 15px;
+}
+
+
+.main-btn:hover{
+    background-color:gold;
+    
+}
+
+.aboutMe-p a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1.2em;
+}
+
+
+.Icon{
+    color: #ffffff;
+    font-size: 1.7em;
+    padding-right: 15px; 
+    transition: 0.7s ease;  
+}
+
+
+
+.AboutMe{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.aboutMe-p{
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.title{
+    font-size: 2em;
+    color: #444;
+    margin-top: 30px    ;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px
+}
+
+
+
+.Projects{
+    background-color: #333;
+}
+
+.Projects .title {
+    color: #ffffff;
+    padding-top: 2em;
+    white-space: nowrap;
+}
+
+
+.GameCard{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 25px;
+    transition: 0.7s ease;
+    margin-bottom: 50PX;
+}
+
+
+
+
+.gameImage img{
+    width: 100%;
+}
+
+
+.gameInfo{
+    padding: 1em;
+    text-align: left;
+}
+
+.game-category{
+    font-size: 0.8em;
+    font-weight: 700;
+    color: black;
+}
+
+.gameTitle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    white-space: nowrap;
+
+}
+
+.PlayNow{
+    text-decoration: none;
+    color: #555;
+}
+
+.PlayNow:hover{
+    color:#111;
+}
+
+
+.content .C-Card{
+    box-shadow: 0 5px 25px rgba(1, 1, 1 ,50%);
+    border-radius: 15px;
+}
+
+.C-Card{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    min-height: 6em;
+    width: 17em;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    margin-bottom: 60PX;
+}
+
+
+
+.Contact-title{
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 1em 2em;
+}
+
+.footer{
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer-title{
+    font-size: 1.0em;
+    font-weight: 600;
+}
+
+.footer-titleAr{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+.footer-titleAr span{
+    color:#666;
+}
+.footer .IconAr{
+    font-size: 0.8em;
+    padding: 0 12px 0 0;
+}
+.footer-title span{
+    color:blue;
+}
+
+.footer .social-icons a{
+    font-size: 1.0em;
+    padding: 0 12px 0 0;
+}

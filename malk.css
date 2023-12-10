@@ -1,0 +1,17 @@
+body{
+    background-size: cover;
+    background-image: url("https://www.bawabatelalam.com/wp-content/uploads/2022/10/%D8%A7%D9%83%D8%AA%D9%88%D8%A8%D8%B1.jpg");
+}
+
+
+.GameCard{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 25px;
+    transition: 0.7s ease;
+    margin-bottom: 50PX;
+}
